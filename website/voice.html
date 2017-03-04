@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src='https://code.responsivevoice.org/responsivevoice.js'  type="text/javascript"></script>
+	<script type="text/javascript">
+	var welcome="hi mukul. Welcome to code shastra.";
+	var problem1="An online platform that facilitates offline group meetings in various localities around the world. The users can use the platform to find people with similar interests and passions in topics including (but not limited to) politics,alumni connect, books,games, movies, health, pets, sports,careers and hobbies. Users should be able to find meet-ups taking place in their locality.";
+
+
+function callfunction(welcome) {
+	alert(welcome);
+    responsiveVoice.speak(welcome);            
+}
+
+
+</script>
+</head>
+<body onload="javascript: responsiveVoice.speak(welcome);">
+
+
+
+
+<input onclick='callfunction(welcome);' type='button' value='Play' />
+
+
+
+
+</body>
+</html>
